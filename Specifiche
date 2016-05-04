@@ -1,0 +1,11 @@
+PIZZERIE con stessi prezzi, ma modi diversi di fabbricare la pizza
+- Hardwired
+- Legacy
+- Inheritance
+- Decorator
+
+1) Aggiungo Basilico,Origano
+2) Aggiungo Aglio
+3) Pizza Marinara
+4) Margherita DOPPIA MOZZARELLA
+5) Portiamo a fattor comune anche le pizzerie
