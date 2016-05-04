@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class Prices {
 
-    Map<Ingredient,Double> cost = new HashMap<>();
+    Map<Ingredient,Double> cost = new HashMap<Ingredient,Double>();
 
     public Prices() {
         cost.put(Ingredient.Mozzarella, 1.0);

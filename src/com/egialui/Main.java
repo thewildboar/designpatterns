@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         PizzeriaTools tools = new PizzeriaTools();
-        List<Pizzeria> pizzerieConosciute = new ArrayList<>();
+        List<Pizzeria> pizzerieConosciute = new ArrayList<Pizzeria>();
 
         pizzerieConosciute.add(new Inheritance());
         pizzerieConosciute.add(new Hardwired());
