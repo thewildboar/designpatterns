@@ -8,7 +8,11 @@ public abstract class BasePizza {
     double cost = 3.0;
     PriceList priceList;
 
-    public abstract void add(Ingredient ingredient);
-    public abstract String make();
-    public abstract double getCost();
+    public void add(Ingredient ingredient) {
+        this.description += "," + ingredient.toString();
+        this.cost += priceList.getPrice(ingredient);
+    }
+
+   public String make() { return this.description; }
+   public double getCost() { return this.cost; }
 }
