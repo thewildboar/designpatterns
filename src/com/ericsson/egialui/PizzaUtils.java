@@ -42,7 +42,6 @@ public class PizzaUtils {
     }
 
     public void printOrders(final List<Pizzeria> pizzerie) {
-        System.out.println("");
         for (Pizzeria pizzeria : pizzerie) {
             System.out.println(pizzeria.makePizza());
         }

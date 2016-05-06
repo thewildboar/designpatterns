@@ -26,6 +26,8 @@ public class Pizza {
                 description+=",Origano";
                 cost+=0.1;
                 break;
+            default:
+                description+=",Unknown";
         }
     }
 

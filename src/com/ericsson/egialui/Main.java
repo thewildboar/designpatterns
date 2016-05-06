@@ -15,9 +15,10 @@ public class Main {
 
         pizzerieConosciute.add(new Hardwired());
         pizzerieConosciute.add(new Legacy());
-        pizzerieConosciute.add(new Decorator());
         pizzerieConosciute.add(new Inheritance());
+        pizzerieConosciute.add(new Decorator());
 
+        System.out.println("");
         utils.printOrders(pizzerieConosciute);
     }
 

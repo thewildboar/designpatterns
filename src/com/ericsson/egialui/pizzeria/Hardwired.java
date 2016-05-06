@@ -12,6 +12,6 @@ public class Hardwired implements Pizzeria {
     }
 
     @Override public String makePizza() {
-        return LOGO + "Pizza con Base,Mozzarella,Pomodoro costa 4.5 euro";
+        return printLogo() + "Pizza con Base,Mozzarella,Pomodoro costa 4.5 euro";
     }
 }
