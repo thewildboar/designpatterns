@@ -2,10 +2,7 @@ package it.bakery.stores.decorator;
 
 import it.bakery.franchising.corporate_identity.Store;
 import it.bakery.franchising.corporate_identity.tools.Counter;
-import it.bakery.stores.decorator.kitchen.BasePizza;
-import it.bakery.stores.decorator.kitchen.Mozzarella;
-import it.bakery.stores.decorator.kitchen.Pizza;
-import it.bakery.stores.decorator.kitchen.Pomodoro;
+import it.bakery.stores.decorator.kitchen.*;
 
 /**
  * Created by egialui on 5/2/16.

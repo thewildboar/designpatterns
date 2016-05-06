@@ -1,9 +1,9 @@
 package it.bakery.stores.legacy;
 
-import it.bakery.franchising.corporate_identity.Sellable;
+import it.bakery.franchising.corporate_identity.Dressing;
 import it.bakery.franchising.corporate_identity.Store;
 import it.bakery.franchising.corporate_identity.tools.Counter;
-import it.bakery.stores.inheritance.kitchen.Margherita;
+import it.bakery.stores.legacy.kitchen.Pizza;
 
 /**
  * Created by egialui on 5/2/16.
@@ -11,12 +11,14 @@ import it.bakery.stores.inheritance.kitchen.Margherita;
 public class Legacy extends Store {
 
     public Legacy() {
-        LOGO = "Pizzeria INHERITANCE \t->\t";
+        LOGO = "Pizzeria LEGACY \t\t->\t";
     }
 
     @Override public String sell() {
 
-        Sellable pizza = new Margherita();
+        Pizza pizza = new Pizza();
+        pizza.add(Dressing.Mozzarella);
+        pizza.add(Dressing.Pomodoro);
         return showLogo() + Counter.checkOut(pizza);
     }
 
