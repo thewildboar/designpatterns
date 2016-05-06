@@ -21,4 +21,8 @@ public class Decorator implements Pizzeria {
     @Override public String printLogo() {
         return LOGO;
     }
+
+//    public BasePizza makeMargherita() {
+//        return new Pomodoro(new Mozzarella(new Pizza()));
+//    }
 }
