@@ -1,9 +1,11 @@
 package com.ericsson.egialui.legacy.pizza;
 
+import com.ericsson.egialui.common.pizza.CommonPizza;
+
 /**
  * Created by egialui on 5/2/16.
  */
-public class Pizza {
+public class Pizza implements CommonPizza {
 
     String description = "Base";
     double cost = 3.0;
@@ -31,11 +33,11 @@ public class Pizza {
         }
     }
 
-    public String make() {
+    @Override public String dress() {
         return "Pizza con " + description;
     }
 
-    public double getCost() {
+    @Override public double getCost() {
         return cost;
     }
 }
